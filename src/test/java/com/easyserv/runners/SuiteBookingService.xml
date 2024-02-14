@@ -1,0 +1,129 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Report_Testing_MotoServ">
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="appURL"
+               value="https://motorserve-booking.siliconstack.com.au/"/>
+
+    <listeners>
+        <listener class-name="com.easyserv.listeners.ReportListener"></listener>
+    </listeners>
+
+    <test name="Test_Suite_Booking_A_Service">
+<!--        <classes>-->
+<!--            <class name="com.easyserv.testcases.BookingService.LoginBookingTest"/>-->
+<!--            <class name="com.easyserv.testcases.BookingService.SearchStoreTest"/>-->
+<!--            <class name="com.easyserv.testcases.BookingService.EnquiriesTest"/>-->
+<!--            <class name="com.easyserv.testcases.BookingService.BookServiceHomeTest"/>-->
+<!--            <class name="com.easyserv.testcases.BookingService.SignUpTest"/>-->
+<!--        </classes>-->
+        <!--        <classes>-->
+        <!--            <class name="com.easyserv.testcases.BookingService.SearchStoreTest">-->
+        <!--                <methods>-->
+        <!--                    <include name="SearchStoreTest_TC001"/>-->
+        <!--                    <include name="SearchStoreTest_TC002"/>-->
+        <!--                    <include name="SearchStoreTest_TC003"/>-->
+        <!--                    <include name="SearchStoreTest_TC004"/>-->
+        <!--                    <include name="SearchStoreTest_TC005"/>-->
+        <!--                    <include name="SearchStoreTest_TC006"/>-->
+        <!--                </methods>-->
+        <!--            </class>-->
+        <!--        </classes>-->
+
+        <!--        <classes>-->
+        <!--            <class name="com.easyserv.testcases.BookingService.EnquiriesTest">-->
+        <!--                <methods>-->
+        <!--                    <include name="EnquiriesTest_TC001"/>-->
+        <!--                    <include name="EnquiriesTest_TC002"/>-->
+        <!--                    <include name="EnquiriesTest_TC003"/>-->
+        <!--                    <include name="EnquiriesTest_TC004"/>-->
+        <!--                    <include name="EnquiriesTest_TC005"/>-->
+        <!--                    <include name="EnquiriesTest_TC006"/>-->
+        <!--                </methods>-->
+        <!--            </class>-->
+        <!--        </classes>-->
+
+        <!--        <classes>-->
+        <!--            <class name="com.easyserv.testcases.BookingService.BookServiceHomeTest">-->
+        <!--                <methods>-->
+        <!--                    <include name="BookingServiceHomeTest_TC001"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC002"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC003"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC004"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC005"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC006"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC007"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC008"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC009"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC010"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC011"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC012"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC013"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC014"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC015"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC016"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC017"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC018"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC019"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC020"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC021"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC022"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC023"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC024"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC025"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC026"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC027"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC028"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC029"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC030"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC031"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC032"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC033"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC034"/>-->
+        <!--                    <include name="BookingServiceHomeTest_TC035"/>-->
+        <!--                </methods>-->
+        <!--            </class>-->
+        <!--        </classes>-->
+
+        <!--                <classes>-->
+        <!--                    <class name="com.easyserv.testcases.BookingService.LoginBookingTest">-->
+        <!--                        <methods>-->
+        <!--                            <include name="LoginBookingTest_TC001"/>-->
+        <!--                            <include name="LoginBookingTest_TC002"/>-->
+        <!--                            <include name="LoginBookingTest_TC003"/>-->
+        <!--                            <include name="LoginBookingTest_TC004"/>-->
+        <!--                            <include name="LoginBookingTest_TC005"/>-->
+        <!--                            <include name="LoginBookingTest_TC006"/>-->
+        <!--                            <include name="LoginBookingTest_TC007"/>-->
+        <!--                        </methods>-->
+        <!--                    </class>-->
+        <!--                </classes>-->
+
+                                <classes>
+                                    <class name="com.easyserv.testcases.BookingService.SignUpTest">
+                                        <methods>
+                                            <include name="SignUpTest_TC001"/>
+<!--                                            <include name="SignUpTest_TC002"/>-->
+<!--                                            <include name="SignUpTest_TC003"/>-->
+<!--                                            <include name="SignUpTest_TC004"/>-->
+<!--                                            <include name="SignUpTest_TC005"/>-->
+<!--                                            <include name="SignUpTest_TC006"/>-->
+<!--                                            <include name="SignUpTest_TC007"/>-->
+<!--                                            <include name="SignUpTest_TC008"/>-->
+<!--                                            <include name="SignUpTest_TC009"/>-->
+<!--                                            <include name="SignUpTest_TC010"/>-->
+<!--                                            <include name="SignUpTest_TC011"/>-->
+<!--                                            <include name="SignUpTest_TC012"/>-->
+<!--                                            <include name="SignUpTest_TC013"/>-->
+<!--                                            <include name="SignUpTest_TC014"/>-->
+<!--                                            <include name="SignUpTest_TC015"/>-->
+<!--                                            <include name="SignUpTest_TC016"/>-->
+<!--                                            <include name="SignUpTest_TC017"/>-->
+<!--                                            <include name="SignUpTest_TC018"/>-->
+<!--                                            <include name="SignUpTest_TC019"/>-->
+        <!--                                    <include name="testcase3"/>-->
+                                        </methods>
+                                    </class>
+                                </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,60 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Report_Testing_EasyServ">
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="appURL"
+               value="https://osb-admin.siliconstack.com.au/login"/>
+    <!--Run Listeners via TestListener class-->
+        <listeners>
+            <listener class-name="com.easyserv.listeners.TestListener"></listener>
+        </listeners>
+
+    <listeners>
+        <listener class-name="com.easyserv.listeners.ReportListener"></listener>
+    </listeners>
+
+
+    <test name="Test_Suite_LoginPage">
+        <classes>
+            <class name="com.easyserv.testcases.Admin.UserAccessTest">
+                <methods>
+                    <include name="LoginTest_TC001"/>
+                    <include name="LoginTest_TC002"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test_Suite_BookingManagement">
+        <classes>
+            <class name="com.easyserv.testcases.Admin.BookingListTest">
+                <methods>
+                    <include name="BookingListTest_TC001"/>
+<!--                    <include name="BookingListTest_TC002"/>-->
+<!--                    <include name="BookingListTest_TC003"/>-->
+<!--                    <include name="BookingListTest_TC004"/>-->
+<!--                    <include name="BookingListTest_TC005"/>-->
+<!--                    <include name="BookingListTest_TC006"/>-->
+<!--                    <include name="BookingListTest_TC007_1"/>-->
+<!--                    <include name="BookingListTest_TC007_2"/>-->
+<!--                    <include name="BookingListTest_TC007_3"/>-->
+<!--                    <include name="BookingListTest_TC008"/>-->
+<!--                    <include name="BookingListTest_TC009"/>-->
+<!--                    <include name="BookingListTest_TC010_1"/>-->
+<!--                    <include name="BookingListTest_TC010_2"/>-->
+                </methods>
+            </class>
+
+            <class name="com.easyserv.testcases.Admin.CreateBookingTest">
+                <methods>
+                    <include name="CreateBookingTest_TC001"/>
+                    <include name="CreateBookingTest_TC002"/>
+                    <include name="CreateBookingTest_TC003"/>
+                    <include name="CreateBookingTest_TC004"/>
+                    <include name="CreateBookingTest_TC005"/>
+                    <include name="CreateBookingTest_TC006"/>
+                    <include name="AddNewCustomerTest_TC007"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

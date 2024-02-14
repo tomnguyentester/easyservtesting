@@ -1,0 +1,106 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Report_Testing_EasyServ">
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="appURL"
+               value="https://motorserve-admin-uat.siliconstack.com.au/login"/>
+
+    <listeners>
+        <listener class-name="com.easyserv.listeners.ReportListener"></listener>
+    </listeners>
+
+    <test name="Test_Suite_User_ManagementList">
+        <classes>
+            <class name="com.easyserv.testcases.Admin.CustomerManaListTest" />
+<!--            <class name="com.easyserv.testcases.Admin.CustomerDetailsTest" />-->
+<!--            <class name="com.easyserv.testcases.Admin.CustomerBookingTest" />-->
+<!--            <class name="com.easyserv.testcases.Admin.CustomerVehiclesTest" />-->
+        </classes>
+
+<!--        <classes>-->
+<!--            <class name="com.easyserv.testcases.Admin.UserManaListTest">-->
+<!--                <methods>-->
+<!--                    <include name="UserManaListTest_TC001"/>-->
+<!--                    <include name="UserManaListTest_TC002"/>-->
+<!--                    <include name="UserManaListTest_TC003"/>-->
+<!--                    <include name="UserManaListTest_TC004"/>-->
+<!--                    <include name="UserManaListTest_TC005"/>-->
+<!--                    <include name="UserManaListTest_TC006"/>-->
+<!--                    <include name="UserManaListTest_TC007"/>-->
+<!--                    <include name="UserManaListTest_TC008"/>-->
+<!--                    <include name="UserManaListTest_TC009"/>-->
+<!--                    <include name="UserManaListTest_TC010"/>-->
+<!--                    <include name="UserManaListTest_TC011"/>-->
+<!--                    <include name="UserManaListTest_TC012"/>-->
+<!--                    <include name="UserManaListTest_TC013"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+
+<!--        <classes>-->
+<!--            <class name="com.easyserv.testcases.Admin.UserManaDetailsTest">-->
+<!--                <methods>-->
+<!--                    <include name="UserManaDetailTest_TC001"/>-->
+<!--                    <include name="UserManaDetailTest_TC002"/>-->
+<!--                    <include name="UserManaDetailTest_TC003"/>-->
+<!--                    <include name="UserManaDetailTest_TC004"/>-->
+<!--                    <include name="UserManaDetailTest_TC005"/>-->
+<!--                    <include name="UserManaDetailTest_TC006"/>-->
+<!--                    <include name="UserManaDetailTest_TC007"/>-->
+<!--                    <include name="UserManaDetailTest_TC008"/>-->
+<!--                    <include name="UserManaDetailTest_TC009"/>-->
+<!--                    <include name="UserManaDetailTest_TC010"/>-->
+<!--                    <include name="UserManaDetailTest_TC011"/>-->
+<!--                    <include name="UserManaDetailTest_TC012"/>-->
+<!--                    <include name="UserManaDetailTest_TC013"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+
+<!--        <classes>-->
+<!--            <class name="com.easyserv.testcases.Admin.StoreManaListTest">-->
+<!--                <methods>-->
+<!--                    <include name="StoreManaListTest_TC001"/>-->
+<!--                    <include name="StoreManaListTest_TC002"/>-->
+<!--                    <include name="StoreManaListTest_TC003"/>-->
+<!--                    <include name="StoreManaListTest_TC004"/>-->
+<!--                    <include name="StoreManaListTest_TC005"/>-->
+<!--                    <include name="StoreManaListTest_TC006"/>-->
+<!--                    <include name="StoreManaListTest_TC007"/>-->
+<!--                    <include name="StoreManaListTest_TC008"/>-->
+<!--                    <include name="StoreManaListTest_TC009"/>-->
+<!--                    <include name="StoreManaListTest_TC010"/>-->
+<!--                    <include name="StoreManaListTest_TC011"/>-->
+<!--                    <include name="StoreManaListTest_TC012"/>-->
+<!--                    <include name="StoreManaListTest_TC013"/>-->
+<!--                    <include name="StoreManaListTest_TC014"/>-->
+<!--                    <include name="StoreManaListTest_TC015"/>-->
+<!--                    <include name="StoreManaListTest_TC016"/>-->
+<!--                    <include name="StoreManaListTest_TC017"/>-->
+<!--                    <include name="StoreManaListTest_TC018"/>-->
+<!--                    <include name="StoreManaListTest_TC019"/>-->
+<!--                    <include name="StoreManaListTest_TC020"/>-->
+<!--                    <include name="StoreManaListTest_TC021"/>-->
+<!--                    <include name="StoreManaListTest_TC022"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+
+<!--        <classes>-->
+<!--            <class name="com.easyserv.testcases.Admin.LoginAdminTest">-->
+<!--                <methods>-->
+<!--                    <include name="LoginAdminTest_TC001"/>-->
+<!--                    <include name="LoginAdminTest_TC002"/>-->
+<!--                    <include name="LoginAdminTest_TC003"/>-->
+<!--                    <include name="LoginAdminTest_TC004"/>-->
+<!--                    <include name="LoginAdminTest_TC005"/>-->
+<!--                    <include name="LoginAdminTest_TC006"/>-->
+<!--                    <include name="LoginAdminTest_TC007"/>-->
+<!--                    <include name="LoginAdminTest_TC008"/>-->
+<!--                    <include name="LoginAdminTest_TC009"/>-->
+<!--                    <include name="LoginAdminTest_TC010"/>-->
+<!--                    <include name="LoginAdminTest_TC011"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+    </test>
+</suite>

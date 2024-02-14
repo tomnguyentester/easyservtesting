@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test">
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="appURL"
+               value="https://osb-admin.siliconstack.com.au/login"/>
+
+    <listeners>
+        <listener class-name="com.easyserv.listeners.ReportListener"/>
+    </listeners>
+
+    <test name="Login Test Suite">
+        <classes>
+            <class name="com.easyserv.testcases.Admin.LoginTest">
+                <methods>
+                    <include name="LoginEasy"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

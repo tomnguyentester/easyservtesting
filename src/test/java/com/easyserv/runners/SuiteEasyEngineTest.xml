@@ -1,0 +1,112 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Report_Testing_EasyEngine">
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="appURL"
+               value="https://ee-admin-dev.siliconstack.com.au/login"/>
+
+    <listeners>
+        <listener class-name="com.easyserv.listeners.ReportListener"></listener>
+    </listeners>
+
+    <test name="Test_Suite_Easyserv_Engine">
+        <classes>
+            <class name="com.easyserv.testcases.EasyEngine.LoginEngineTest">
+                <methods>
+                    <include name="LoginEngineTest_TC001"/>
+                    <include name="LoginEngineTest_TC002"/>
+                    <include name="LoginEngineTest_TC003"/>
+                    <include name="LoginEngineTest_TC004"/>
+                    <include name="LoginEngineTest_TC005"/>
+                    <include name="LoginEngineTest_TC006"/>
+                    <include name="LoginEngineTest_TC007"/>
+                    <include name="LoginEngineTest_TC008"/>
+                    <include name="LoginEngineTest_TC009"/>
+                    <include name="LoginEngineTest_TC010"/>
+                    <include name="LoginEngineTest_TC011"/>
+                    <include name="LoginEngineTest_TC012"/>
+                    <include name="LoginEngineTest_TC013"/>
+                    <include name="LoginEngineTest_TC014"/>
+                    <include name="LoginEngineTest_TC015"/>
+                    <include name="LoginEngineTest_TC016"/>
+                    <include name="LoginEngineTest_TC017"/>
+                    <include name="LoginEngineTest_TC018"/>
+                    <include name="LoginEngineTest_TC019"/>
+                    <include name="LoginEngineTest_TC020"/>
+                    <include name="LoginEngineTest_TC021"/>
+                </methods>
+            </class>
+        </classes>
+
+<!--        <classes>-->
+<!--            <class name="com.easyserv.testcases.EasyEngine.ForgotPasswordTest">-->
+<!--                <methods>-->
+<!--                    <include name="ForgotPasswordTest_TC001"/>-->
+<!--                    <include name="ForgotPasswordTest_TC002"/>-->
+<!--                    <include name="ForgotPasswordTest_TC003"/>-->
+<!--                    <include name="ForgotPasswordTest_TC004"/>-->
+<!--                    <include name="ForgotPasswordTest_TC005"/>-->
+<!--                    <include name="ForgotPasswordTest_TC006"/>-->
+<!--                    <include name="ForgotPasswordTest_TC007"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+
+<!--        <classes>-->
+<!--            <class name="com.easyserv.testcases.EasyEngine.AccountSettingTest">-->
+<!--                <methods>-->
+<!--                    <include name="AccountSettingTest_TC001"/>-->
+<!--                    <include name="AccountSettingTest_TC002"/>-->
+<!--                    <include name="AccountSettingTest_TC003"/>-->
+<!--                    <include name="AccountSettingTest_TC004"/>-->
+<!--                    <include name="AccountSettingTest_TC005"/>-->
+<!--                    <include name="AccountSettingTest_TC006"/>-->
+<!--                    <include name="AccountSettingTest_TC007"/>-->
+<!--                    <include name="AccountSettingTest_TC008"/>-->
+<!--                    <include name="AccountSettingTest_TC009"/>-->
+<!--                    <include name="AccountSettingTest_TC010"/>-->
+<!--                    <include name="AccountSettingTest_TC011"/>-->
+<!--                    <include name="AccountSettingTest_TC012"/>-->
+<!--                    <include name="AccountSettingTest_TC013"/>-->
+<!--                    <include name="AccountSettingTest_TC014"/>-->
+<!--                    <include name="AccountSettingTest_TC015"/>-->
+<!--                    <include name="AccountSettingTest_TC016"/>-->
+<!--                    <include name="AccountSettingTest_TC017"/>-->
+<!--                    <include name="AccountSettingTest_TC018"/>-->
+<!--                    <include name="AccountSettingTest_TC019"/>-->
+<!--                    <include name="AccountSettingTest_TC020"/>-->
+<!--                    <include name="AccountSettingTest_TC021"/>-->
+<!--                    <include name="AccountSettingTest_TC022"/>-->
+<!--                    <include name="AccountSettingTest_TC023"/>-->
+<!--                    <include name="AccountSettingTest_TC024"/>-->
+<!--                    <include name="AccountSettingTest_TC025"/>-->
+<!--                    <include name="AccountSettingTest_TC026"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+
+<!--        <classes>-->
+<!--            <class name="com.easyserv.testcases.EasyEngine.AddNewUserTest">-->
+<!--                <methods>-->
+<!--                    <include name="AddNewUserTest_TC001"/>-->
+<!--                    <include name="AddNewUserTest_TC002"/>-->
+<!--                    <include name="AddNewUserTest_TC003"/>-->
+<!--                    <include name="AddNewUserTest_TC004"/>-->
+<!--                    <include name="AddNewUserTest_TC005"/>-->
+<!--                    <include name="AddNewUserTest_TC006"/>-->
+<!--                    <include name="AddNewUserTest_TC007"/>-->
+<!--                    <include name="AddNewUserTest_TC008"/>-->
+<!--                    <include name="AddNewUserTest_TC009"/>-->
+<!--                    <include name="AddNewUserTest_TC010"/>-->
+<!--                    <include name="AddNewUserTest_TC011"/>-->
+<!--                    <include name="AddNewUserTest_TC012"/>-->
+<!--                    <include name="AddNewUserTest_TC013"/>-->
+<!--                    <include name="AddNewUserTest_TC014"/>-->
+<!--                    <include name="AddNewUserTest_TC015"/>-->
+<!--                    <include name="AddNewUserTest_TC016"/>-->
+<!--                    <include name="AddNewUserTest_TC017"/>-->
+<!--                    <include name="AddNewUserTest_TC018"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+    </test>
+</suite>

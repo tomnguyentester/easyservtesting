@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a836491-5059-4c7c-91ef-f2fab09b34f1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2I7rd8yjqjlrYNuv8nbZULq7tYH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Selenium2022&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.34252873&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.easyserv.helpers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\SiliconStackProject\EasyServ\src\test\java\com\easyserv\extentreports" />
+      <recent name="C:\SiliconStackProject\EasyServ\src\main\java\com\easyserv\extentreports" />
+      <recent name="C:\SiliconStackProject\EasyServ\resources\drivers" />
+      <recent name="C:\SiliconStackProject\EasyServ\drivers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\SiliconStackProject\EasyServ\src\main\resources" />
+      <recent name="C:\SiliconStackProject\EasyServ\src\main\java\resources_test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.easyserv.pages" />
+      <recent name="com.easyserv.testcases" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/SuiteEasyEngineTest.xml">
+    <configuration name="C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/LoginSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EasyServ" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/easyserv/runners/LoginSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/SuiteAdminPortalTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EasyServ" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/easyserv/runners/SuiteAdminPortalTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/SuiteEasyEngineTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EasyServ" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/easyserv/runners/SuiteEasyEngineTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/SuiteFlightDeckTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EasyServ" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/easyserv/runners/SuiteFlightDeckTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreManaListTest.StoreManaListTest_TC020" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EasyServ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easyserv.testcases.Admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.easyserv.testcases.Admin" />
+      <option name="MAIN_CLASS_NAME" value="com.easyserv.testcases.Admin.StoreManaListTest" />
+      <option name="METHOD_NAME" value="StoreManaListTest_TC020" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/SuiteFlightDeckTest.xml" />
+      <item itemvalue="TestNG.C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/LoginSuite.xml" />
+      <item itemvalue="TestNG.StoreManaListTest.StoreManaListTest_TC020" />
+      <item itemvalue="TestNG.C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/SuiteAdminPortalTest.xml" />
+      <item itemvalue="TestNG.C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/SuiteEasyEngineTest.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/SuiteEasyEngineTest.xml" />
+        <item itemvalue="TestNG.C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/SuiteFlightDeckTest.xml" />
+        <item itemvalue="TestNG.C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/SuiteAdminPortalTest.xml" />
+        <item itemvalue="TestNG.C:/SiliconStackProject/EasyServ/src/test/java/com/easyserv/runners/LoginSuite.xml" />
+        <item itemvalue="TestNG.StoreManaListTest.StoreManaListTest_TC020" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a836491-5059-4c7c-91ef-f2fab09b34f1" name="Changes" comment="" />
+      <created>1669543550100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669543550100</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/EasyServ$C__SiliconStackProject_EasyServ_src_test_java_com_easyserv_runners_SuiteFlightDeckTest_xml.ic" NAME="$PROJECT_DIR$/src/test/java/com/easyserv/runners/SuiteFlightDeckTest.xml Coverage Results" MODIFIED="1679123989521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/EasyServ$C__SiliconStackProject_EasyServ_src_test_java_com_easyserv_runners_LoginSuite_xml.ic" NAME="$PROJECT_DIR$/src/test/java/com/easyserv/runners/LoginSuite.xml Coverage Results" MODIFIED="1672398266111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/EasyServ$C__SiliconStackProject_EasyServ_src_test_java_com_easyserv_runners_SuiteEasyEngineTest_xml.ic" NAME="$PROJECT_DIR$/src/test/java/com/easyserv/runners/SuiteEasyEngineTest.xml Coverage Results" MODIFIED="1702111281865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/EasyServ$C__SiliconStackProject_EasyServ_runpackage_xml.ic" NAME="$PROJECT_DIR$/runpackage.xml Coverage Results" MODIFIED="1671335127083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/EasyServ$testbrowser.ic" NAME="testbrowser Coverage Results" MODIFIED="1669558778193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.easyserv.common.*</FILTER>
+    </SUITE>
+  </component>
+</project>

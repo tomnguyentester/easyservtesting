@@ -1,0 +1,210 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Report_Testing_EasyServ">
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="appURL"
+               value="https://osb-admin.siliconstack.com.au/login"/>
+
+    <listeners>
+        <listener class-name="com.easyserv.listeners.ReportListener"></listener>
+    </listeners>
+
+        <test name="Test_Suite_FlightDeckSetting_BeaconTab">
+            <classes>
+                <class name="com.easyserv.testcases.Admin.BeaconsTest">
+                    <methods>
+                        <include name="BeaconsTest_TC001"/>
+                        <include name="BeaconsTest_TC002"/>
+                        <include name="BeaconsTest_TC003"/>
+                        <include name="BeaconsTest_TC004"/>
+                        <include name="BeaconsTest_TC005"/>
+                        <include name="BeaconsTest_TC006_1"/>
+                        <include name="BeaconsTest_TC006_2"/>
+                        <include name="BeaconsTest_TC007_1"/>
+                        <include name="BeaconsTest_TC007_2"/>
+                        <include name="BeaconsTest_TC008"/>
+                        <include name="BeaconsTest_TC009_1"/>
+                        <include name="BeaconsTest_TC009_2"/>
+                        <include name="BeaconsTest_TC010"/>
+                        <include name="BeaconsTest_TC011"/>
+                        <include name="BeaconsTest_TC012"/>
+                        <include name="BeaconsTest_TC013"/>
+                        <include name="BeaconsTest_TC014"/>
+                        <include name="BeaconsTest_TC015"/>
+                        <include name="BeaconsTest_TC016"/>
+                        <include name="BeaconsTest_TC017"/>
+                        <include name="BeaconsTest_TC018"/>
+                        <include name="BeaconsTest_TC019"/>
+                        <include name="BeaconsTest_TC020"/>
+                        <include name="BeaconsTest_TC021"/>
+                        <include name="BeaconsTest_TC022"/>
+                        <include name="BeaconsTest_TC023"/>
+                        <include name="BeaconsTest_TC024_1"/>
+                        <include name="BeaconsTest_TC024_2"/>
+                        <include name="BeaconsTest_TC025"/>
+                        <include name="BeaconsTest_TC026"/>
+                        <include name="BeaconsTest_TC027"/>
+                        <include name="BeaconsTest_TC028"/>
+                        <include name="BeaconsTest_TC029"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>
+
+
+    <test name="Test_Suite_FlightDeckSetting_GatewayTab">
+        <classes>
+            <class name="com.easyserv.testcases.Admin.GatewaysTest">
+                <methods>
+                    <include name="GatewaysTest_TC001"/>
+                    <include name="GatewaysTest_TC002"/>
+                    <include name="GatewaysTest_TC003"/>
+                    <include name="GatewaysTest_TC004"/>
+                    <include name="GatewaysTest_TC005"/>
+                    <include name="GatewaysTest_TC006_1"/>
+                    <include name="GatewaysTest_TC006_2"/>
+                    <include name="GatewaysTest_TC007_1"/>
+                    <include name="GatewaysTest_TC007_2"/>
+                    <include name="GatewaysTest_TC008"/>
+                    <include name="GatewaysTest_TC009_1"/>
+                    <include name="GatewaysTest_TC009_2"/>
+                    <include name="GatewaysTest_TC010_1"/>
+                    <include name="GatewaysTest_TC010_2"/>
+                    <include name="GatewaysTest_TC011"/>
+                    <include name="GatewaysTest_TC012_1"/>
+                    <include name="GatewaysTest_TC012_2"/>
+                    <include name="GatewaysTest_TC013"/>
+                    <include name="GatewaysTest_TC014"/>
+                    <include name="GatewaysTest_TC015"/>
+                    <include name="GatewaysTest_TC016"/>
+                    <include name="GatewaysTest_TC017"/>
+                    <include name="GatewaysTest_TC018"/>
+                    <include name="GatewaysTest_TC019"/>
+                    <include name="GatewaysTest_TC020"/>
+                    <include name="GatewaysTest_TC021"/>
+                    <include name="GatewaysTest_TC022"/>
+                    <include name="GatewaysTest_TC023"/>
+                    <include name="GatewaysTest_TC024"/>
+                    <include name="GatewaysTest_TC025"/>
+                    <include name="GatewaysTest_TC026"/>
+                    <include name="GatewaysTest_TC027"/>
+                    <include name="GatewaysTest_TC028"/>
+                    <include name="GatewaysTest_TC029"/>
+                    <include name="GatewaysTest_TC030"/>
+                    <include name="GatewaysTest_TC031"/>
+                    <include name="GatewaysTest_TC032"/>
+                    <include name="GatewaysTest_TC033"/>
+                    <include name="GatewaysTest_TC034"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+<!--    <test name="Test_Suite_FlightDeckSetting_BayTab">-->
+<!--        <classes>-->
+<!--            <class name="com.easyserv.testcases.Admin.BaysTest">-->
+<!--                <methods>-->
+<!--                    <include name="BayTest_TC001"/>-->
+<!--                    <include name="BayTest_TC002"/>-->
+<!--                    <include name="BayTest_TC003"/>-->
+<!--                    <include name="BayTest_TC004"/>-->
+<!--                    <include name="BayTest_TC005"/>-->
+<!--                    <include name="BayTest_TC006_1"/>-->
+<!--                    <include name="BayTest_TC006_2"/>-->
+<!--                    <include name="BayTest_TC007_1"/>-->
+<!--                    <include name="BayTest_TC007_2"/>-->
+<!--                    <include name="BayTest_TC008"/>-->
+<!--                    <include name="BayTest_TC009_1"/>-->
+<!--                    <include name="BayTest_TC009_2"/>-->
+<!--                    <include name="BayTest_TC010_1"/>-->
+<!--                    <include name="BayTest_TC010_2"/>-->
+<!--                    <include name="BayTest_TC011"/>-->
+<!--                    <include name="BayTest_TC012_1"/>-->
+<!--                    <include name="BayTest_TC012_2"/>-->
+<!--                    <include name="BayTest_TC013"/>-->
+<!--                    <include name="BayTest_TC014"/>-->
+<!--                    <include name="BayTest_TC015"/>-->
+<!--                    <include name="BayTest_TC016"/>-->
+<!--                    <include name="BayTest_TC017_1"/>-->
+<!--                    <include name="BayTest_TC017_2"/>-->
+<!--                    <include name="BayTest_TC018"/>-->
+<!--                    <include name="BayTest_TC019"/>-->
+<!--                    <include name="BayTest_TC020"/>-->
+<!--                    <include name="BayTest_TC021"/>-->
+<!--                    <include name="BayTest_TC022"/>-->
+<!--                    <include name="BayTest_TC023"/>-->
+<!--                    <include name="BayTest_TC024"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Test_Suite_Customer_Management">-->
+<!--        <classes>-->
+<!--            <class name="com.easyserv.testcases.Admin.CustomerManaListTest">-->
+<!--                <methods>-->
+<!--                    <include name="CustomerList_TC001"/>-->
+<!--                    <include name="CustomerList_TC002"/>-->
+<!--                    <include name="CustomerList_TC003"/>-->
+<!--                    <include name="CustomerList_TC004"/>-->
+<!--                    <include name="CustomerList_TC005_1"/>-->
+<!--                    <include name="CustomerList_TC005_2"/>-->
+<!--                    <include name="CustomerList_TC006"/>-->
+<!--                    <include name="CustomerList_TC007"/>-->
+<!--                    <include name="CustomerList_TC008"/>-->
+<!--                    <include name="CustomerList_TC009"/>-->
+<!--                    <include name="CustomerList_TC010"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Test_Suite_Customer_Details">-->
+<!--        <classes>-->
+<!--            <class name="com.easyserv.testcases.Admin.CustomerDetailsTest">-->
+<!--                <methods>-->
+<!--                    <include name="CustomerDetails_TC001"/>-->
+<!--                    <include name="CustomerDetails_TC002"/>-->
+<!--                    <include name="CustomerDetails_TC003"/>-->
+<!--                    <include name="CustomerDetails_TC004"/>-->
+<!--                    <include name="CustomerDetails_TC005"/>-->
+<!--                    <include name="CustomerDetails_TC006"/>-->
+<!--                    <include name="CustomerDetails_TC007"/>-->
+<!--                    <include name="CustomerDetails_TC008"/>-->
+<!--                    <include name="CustomerDetails_TC009"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Test_Suite_Customer_Bookings">-->
+<!--        <classes>-->
+<!--            <class name="com.easyserv.testcases.Admin.CustomerBookingTest">-->
+<!--                <methods>-->
+<!--                    <include name="CustomerBookings_TC001"/>-->
+<!--                    <include name="CustomerBookings_TC002"/>-->
+<!--                    <include name="CustomerBookings_TC003"/>-->
+<!--                    <include name="CustomerBookings_TC004"/>-->
+<!--                    <include name="CustomerBookings_TC005"/>-->
+<!--                    <include name="CustomerBookings_TC006"/>-->
+<!--                    <include name="CustomerBookings_TC007"/>-->
+<!--                    <include name="CustomerBookings_TC008"/>-->
+<!--                    <include name="CustomerBookings_TC009"/>-->
+<!--                    <include name="CustomerBookings_TC010"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Test_Suite_Customer_Bookings">-->
+<!--        <classes>-->
+<!--            <class name="com.easyserv.testcases.Admin.CustomerVehiclesTest">-->
+<!--                <methods>-->
+<!--                    <include name="CustomerVehicle_TC001"/>-->
+<!--                    <include name="CustomerVehicle_TC002"/>-->
+<!--                    <include name="CustomerVehicle_TC003"/>-->
+<!--                    <include name="CustomerVehicle_TC004"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

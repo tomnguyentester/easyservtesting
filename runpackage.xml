@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Report_Testing_EasyServ">
+    <parameter name="browserType" value="chrome" />
+    <parameter name="appURL"
+               value="https://osb-admin.siliconstack.com.au/login" />
+
+    <test name="Test_Case_LoginPage">
+        <classes>
+<!--            <class name="com.easyserv.testcases.Admin.LoginTest">-->
+<!--                <methods>-->
+<!--                    <include name="LoginEasy" />-->
+<!--                    <include name="LoginEasy1" />-->
+<!--                    <include name="LoginEasy2" />-->
+<!--                </methods>-->
+<!--            </class>-->
+
+<!--            <class name="com.easyserv.testcases.Admin.LoginTestLink">-->
+<!--                <methods>-->
+<!--                    <include name="LoginEasy" />-->
+<!--                    <include name="Dashboard" />-->
+<!--                    <include name="BookingManage" />-->
+<!--                </methods>-->
+<!--            </class>-->
+
+            <class name="com.easyserv.testcases.Admin.UserAccessTest">
+                <methods>
+                    <include name="LoginTest_TC001" />
+                    <include name="LoginTest_TC002" />
+                    <include name="LoginTest_TC003" />
+                    <include name="LoginTest_TC004" />
+                    <include name="LoginTest_TC005" />
+                    <include name="LoginTest_TC006" />
+                    <include name="LoginTest_TC007" />
+                    <include name="LoginTest_TC008" />
+                    <include name="LoginTest_TC009" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
